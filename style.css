@@ -75,3 +75,24 @@
     border-bottom-right-radius: 4px;
     font-size : 1.5rem;
 }
+/* box 4 */
+
+.language-flag {
+    display: flex;
+    height: 50px;
+    width: 74px;
+    align-items: center;
+}
+.flag {
+    background-image: url("https://cdn.countryflags.com/thumbs/india/flag-400.png");
+    background-size: cover;
+    height: 16px;
+    width: 21px;
+}
+.language {
+   height: 17px;
+   width: 40px;
+   color: #FFFFFF;
+   background-color: #0f1111;
+   border: none;
+}

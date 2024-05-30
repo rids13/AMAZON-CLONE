@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height : 60px;
+    background-color: #0f1111;
+    color: white;
+    display : flex;
+    align-items: center;
+}
+.nav_logo{
+    height : 50px;
+    width : 100px;
+}
+.logo{
+    background-image: url("https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578");
+    background-size: cover;
+    height: 50px;
+    width : 100%;
+}
+.border {
+    border : 1.75px solid transparent ;
+}
+.border:hover {
+    border : 1.75px solid white;
+}
+/* box 2 */
+
+.address-icon {
+    display: flex;
+    
+}
+.add-1 {
+    color : #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.add-2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}

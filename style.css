@@ -30,7 +30,7 @@
 /* box 2 */
 .address-class {
     height: 50px;
-    width: 80px;
+    width: 85px;
 }
 .address-icon {
     display: flex;
@@ -88,7 +88,7 @@
 .language-flag {
     display: flex;
     height: 50px;
-    width: 74px;
+    width: 75px;
     align-items: center;
 }
 .flag {
@@ -121,5 +121,26 @@
     border: none;
     background-color: #0f1111;
     color: white;
+    font-weight: 700;
+}
+/* box 6 */
+
+.sign-return {
+    height: 50px;
+}
+/* box 7 */
+
+.nav-cart {
+    display: flex;
+    height: 50px;
+    width: 100px;
+}
+.nav-cart i {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.Cart {
+    margin-top: 20px;
     font-weight: 700;
 }

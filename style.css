@@ -302,17 +302,26 @@
 }
 .s1 {
     width: 23%;
-    background-color: black;
+    background-color: white;
 }
 .s2 {
     width: 23%;
     background-color: white;
 }
 .sboxes {
-    background-color: blue;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    transform: translateX(15px);
     justify-items: center;
     gap: 5px;
     width: 100%;
 }
+
+.a {
+    text-decoration: none;
+}
+.a:hover {
+    color: red;
+}
+/**footer**/
+

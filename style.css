@@ -144,3 +144,175 @@
     margin-top: 20px;
     font-weight: 700;
 }
+
+/* pannel */
+
+.pannel {
+    display: flex;
+    background-color: #263030;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.pannel-ops p{
+    display: inline;
+    margin-left: 25px;
+}
+.pannel-ops {
+    width: 70%;
+    font-size: 0.95rem;
+    font-weight: 540;
+}
+.pannel-deal {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+/* hero section */
+
+.hero-section {
+    background-image: url(https://f.media-amazon.com/images/G/31/img19/AmazonPay/Kartik/MAYGTM2022/2024/PC_Hero_3000x1200_Electricityjpg._CB555882039_.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+/* content section */
+
+.box {
+    height: 400px;
+    background-color: white;
+    width: 23%;
+    display: flex;
+}
+.content1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    transform: translateY(255px);
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.boxes1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    width: 100%;
+    justify-items: center;
+}
+.b1{
+    height: 140px;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.head1 {
+    padding-top:20px;
+}
+.b1-txt {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.b2{
+    height: 100px;
+    width: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.combine {
+    display: flex;
+    flex-direction: column;
+}
+.box4{
+    height:35%;
+    width: 350px;
+    display: flex;
+}
+.b4 {
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+.newh2 {
+    height: 85px;
+    width: 200px;
+}
+.two {
+    height: 50px;
+    width: 200px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.box5 {
+    height: 65%;
+    width: 350px;
+    background-color: orange;
+}
+.sb5 {
+    height: 80%;
+    width: 300px;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.sb5-detail {
+    display: flex;
+}
+.sb5-img {
+    height: 54px;
+    width: 54px;
+    background-size: contain;
+}
+.sb5-info {
+    background-color: white;
+}
+
+
+.content2 { 
+    height: 400px;
+    transform: translateY(255px);
+    padding-top: 30px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+}
+.b {
+    height: 400px;
+}
+.big1 {
+    width: 48%;
+}
+.s1 {
+    width: 23%;
+    background-color: black;
+}
+.s2 {
+    width: 23%;
+    background-color: white;
+}
+.sboxes {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 5px;
+    width: 100%;
+}

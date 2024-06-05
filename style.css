@@ -325,3 +325,58 @@
 }
 /**footer**/
 
+.foot-pannel1 {
+    height: 50px;
+    color: white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(495px);
+    font-size: 0.85rem;
+}
+.foot-pannel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    transform: translateY(493px);
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 40px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-pannel3 {
+    background-color: #37475a;
+    transform: translateY(494px);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo {
+    background-image : url("https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578");
+    background-size: cover;
+    height: 50px;
+    width : 100px;
+}
+.foot-pannel4 {
+    height: 75px;
+    background-color: #0f1111;
+    color: white;
+    transform: translateY(494px);
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages {
+    padding-top: 25px;
+}
+.copyright {
+    margin-top: 5px;
+}
